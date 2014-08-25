@@ -37,6 +37,9 @@ gem "twitter-bootstrap-rails"
 
 gem 'devise'
 
+gem 'rolify'
+gem 'pundit'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
