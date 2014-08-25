@@ -39,6 +39,7 @@ gem 'devise'
 
 gem 'rolify'
 gem 'pundit'
+gem 'figaro'
 
 # Use unicorn as the app server
 # gem 'unicorn'
