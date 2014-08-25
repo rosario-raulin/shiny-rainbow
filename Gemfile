@@ -35,6 +35,8 @@ gem "therubyracer"
 gem "less-rails"
 gem "twitter-bootstrap-rails"
 
+gem 'devise'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
