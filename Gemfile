@@ -41,6 +41,9 @@ gem 'rolify'
 gem 'pundit'
 gem 'figaro'
 
+gem 'bootstrap-datepicker-rails'
+
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
