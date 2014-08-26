@@ -10,5 +10,6 @@ class User < ActiveRecord::Base
   validates :dob, presence: true
   validates :gender, presence: true
   validates :faculty, presence: true
-  
+
+  enum gender: [ :female, :male, :unspecified ]
 end
