@@ -19,20 +19,10 @@
     <%= f.text_field :lastname, class: "form-control" %></div>
   
   <div class="form-group"><%= f.label :date_of_birth %><br />
-      <%= f.date_field :dob, class: "form-control", id: "dob" %></div>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('#dob').datepicker();
-    })
-  </script>
+      <%= f.date_field :dob, :"data-behaviour" => "datepicker", class: "form-control" %></div>
 
   <div class="form-group"><%= f.label :gender %><br />
-      <%= f.date_field :dob, class: "form-control", id: "dob" %></div>  
-
-
-
-
+  </div>  
 
   <div><%= f.submit "Sign up", class: 'btn btn-default' %></div>
 <% end %>

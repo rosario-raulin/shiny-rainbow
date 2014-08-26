@@ -16,3 +16,7 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-datepicker
+
+$(function() {
+  $('[data-behaviour~=datepicker]').datepicker();
+});
