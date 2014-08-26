@@ -12,6 +12,25 @@
   <div class="form-group"><%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %></div>
 
+  <div class="form-group"><%= f.label :first_name %><br />
+    <%= f.text_field :firstname, class: "form-control" %></div>
+
+  <div class="form-group"><%= f.label :last_name %><br />
+    <%= f.text_field :lastname, class: "form-control" %></div>
+  
+  <div class="form-group"><%= f.label :date_of_birth %><br />
+      <%= f.date_field :dob, class: "form-control", id: "dob" %></div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#dob').datepicker();
+    })
+  </script>
+
+
+
+
+
   <div><%= f.submit "Sign up", class: 'btn btn-default' %></div>
 <% end %>
 
