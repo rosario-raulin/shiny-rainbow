@@ -28,7 +28,7 @@
   </script>
 
   <div class="form-group"><%= f.label :gender %><br />
-      <%= f.date_field :dob, class: "form-control", id: "dob" %></div>  
+      <%= f.select :gender, options_for_select(User.genders), class: "form-control" %></div>  
 
 
 
