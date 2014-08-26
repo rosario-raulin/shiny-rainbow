@@ -19,7 +19,7 @@
     <%= f.text_field :lastname, class: "form-control" %></div>
   
   <div class="form-group"><%= f.label :date_of_birth %><br />
-      <%= f.date_field :dob, :"data-behaviour" => "datepicker", class: "form-control" %></div>
+      <%= f.text_field :dob, :"data-behaviour" => "datepicker", class: "form-control" %></div>
 
   <div class="form-group"><%= f.label :gender %><br />
       <%= f.select :gender, options_for_select(User.genders), class: "form-control" %></div> 
